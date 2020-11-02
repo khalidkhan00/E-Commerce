@@ -1,0 +1,421 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body-content
+{
+    width:100%; 
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 40px;
+}
+.footer
+{
+    width: 100%;
+    background:black;
+    display: block;
+    margin-top: 50px;  
+}
+.inner-footer
+{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items
+{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h1
+{
+    padding: 10px 0;
+    font-size: 15px;
+    color:darkgreen;
+    text-transform: capitalize;
+}
+.footer-items p
+{
+    color:rgb(red, green, blue);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+h2
+{
+    margin: 10px 0;
+    color: greenyellow;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border
+{
+    height: 2px;
+    width: 40px;
+    background-color: hotpink;
+}
+ul
+{
+ list-style: none;
+ color: lightcoral;
+ font-size: 15px;
+ letter-spacing: .6px;
+}
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: red;
+    transition: 0.5s;
+}
+ul a:hover
+{
+    color: lightseagreen;
+}
+ul li
+{
+  margin: 10px 0;
+  height: 25px;
+}
+li i
+{
+ margin-right: 30px;
+}
+.social-media
+{
+    width: 100%;
+    color: lime;
+    text-align: center;
+}
+.social-media a
+{
+ text-decoration: none;
+
+}
+.social-media i{
+    height: 10px;
+    width: 4px;
+    margin: 20px 5px;
+    padding: 4px;
+    color: maroon;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: 0.3s;
+}
+.footer-bottom
+{
+    padding: 10px;
+    background: olivedrab;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -50px;
+}
+@media screen and (max-width:1085px)
+{
+    .footer-items
+    {
+        width: 50%;
+    }
+}
+.slider
+{
+    overflow: hidden;
+    height: 240px;
+    width: 700px;
+    margin-left:500px;
+    margin-top:-260px;
+
+}
+.slider figure div
+{
+  float: right;
+  width: 20%;
+  height: 420px;
+}
+.slider figure img
+{
+  width: 100%;
+  float: left;
+}
+.slider figure
+{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation:5.4s khalid infinite;
+}
+@keyframes khalid
+{
+0%
+{
+  left:0%;  
+}
+10%
+{
+  left: 0%;
+}
+12%
+{
+  left:-100%;
+}
+22%
+{
+   left:-100%;
+}
+24%
+{
+   left: -200%;    
+}
+34%
+{
+    left: -200%;
+}
+36%
+{
+    left: -300%;
+}
+46%
+{
+    left: -300%;
+}
+48%
+{
+    left: -400%;
+}
+58%
+{
+    left: -400%;
+}
+60%
+{
+    left: -300%;
+}
+70%
+{
+    left: -300%;
+}
+72%
+{
+    left: -200%;
+}
+82%
+{
+    left: -200%;
+}
+84%
+{
+    left: -100%;
+}
+94%
+{
+    left: -100%;
+}
+96%
+{
+    left: 0%;
+}
+}
+#ELECTRONIC
+{
+    padding-left:0px; 
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+#WOMENFASHION
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#manfas
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#HOMEANDLIVING
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#HEALTHANDBEAUTY
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#BABYTOYS
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#SPORTSTRAVEL
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#MOTORMUSICROCERIES
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+#SHOPSBRANDS
+{
+    cursor: pointer;
+    padding-left:0px; 
+    margin-left: 20px;
+}
+
+#bumperoffer
+{
+    cursor: pointer;
+    border:14px solid lightgray;
+    background-color :orange;
+    text-align: center;
+    margin-left: 60px;
+}
+#shop
+{
+    cursor: pointer;
+    border:14px solid whitesmoke;
+    background-color: wheat; 
+    text-decoration:black ;
+    margin-left: 60px;
+}
+#shopcat
+{
+    cursor: pointer;
+    border:14px solid whitesmoke;
+    background-color: wheat; 
+    text-decoration:black ;
+    margin-left: 60px;    
+}
+#urabn
+{
+    cursor: pointer;
+    border:14px solid whitesmoke;
+    background-color: wheat; 
+    text-decoration:black ;
+    margin-left: 60px;
+}
+#FESTIVE
+{
+    cursor: pointer;
+    border:14px solid whitesmoke;
+    background-color: wheat; 
+    text-decoration:black ;
+    margin-left: 60px;   
+}
+#furni
+{
+    border:14px solid whitesmoke;
+    background-color: wheat; 
+    text-decoration:black ;
+    margin-left: 60px;
+    cursor: pointer; 
+}
+
+#GETTHEAPP
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    width: 80px;
+    font-size: 10px;
+    color:black;
+    font-weight: 10;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#SELLONKHANMARKET
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    width: 80px;
+    margin-left: 120px;
+    font-size: 10px;
+    color:black;
+    font-weight: 5;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+#CUSTOMERCARE
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    margin-left: 120px;
+    width: 80px;
+    font-size: 10px;
+    color:black;
+    font-weight: 5;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+#aboutus
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    width: 80px;
+    margin-left: 120px;
+    font-size: 10px;
+    color:black;
+    font-weight: 5;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;    
+}  
+#login
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    margin-left: 120px;
+    width: 80px;
+    font-size: 10px;
+    color:black;
+    font-weight: 5;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+#signup
+{
+    position: relative;
+    background-color: cyan;
+    text-align: center;
+    margin-left: 120px;
+    width: 80px;
+    font-size: 10px;
+    color:black;
+    font-weight: 5;
+    border: 0px solid red;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;  
+}
